@@ -1,0 +1,114 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1em !important; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url(../img/image1.jpeg);
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url(../img/image2.jpeg);
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url(../img/image3.jpeg);
+  background-size: cover; }
+
+#home-icon .fa {
+  font-size: 50px; }
+
+#getstarted {
+  position: relative;
+  background: url(../img/bg1.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  background-position: top center; }
+  #getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+#home-video {
+  position: relative;
+  background: url(../img/people.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  background-position: top center; }
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+    #home-video .dark-overlay .fa {
+      font-size: 60px; }
+
+#gallery img {
+  min-height: 230px; }
+
+#footer {
+  background-color: #000;
+  color: #fff; }
+
+#about-page-header {
+  background: url(../img/image1.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 200px; }
+
+#what-we-do {
+  background-color: linear; }
+  #what-we-do .gap {
+    padding-right: 22px; }
+  #what-we-do img {
+    width: 350px;
+    height: 350px; }
+
+#icon .fa {
+  font-size: 50px;
+  margin-bottom: 20px; }
+
+#testimonial .slick-prev::before, #testimonial .slick-next::before {
+  color: #000; }
+
+#service-page-header {
+  background: url(../img/image3.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 200px; }
+
+#blog-page-header {
+  background: url(../img/image2.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 200px; }
+
+@media (max-width: 768px) {
+  .nav-item {
+    text-align: center; }
+  #getstarted {
+    min-height: 300px; } }
+
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 2.6rem; }
+  #getstarted {
+    min-height: 400px; } }
+
+@media (max-width: 350px) {
+  .carousel h2 {
+    font-size: 1.9rem; } }
